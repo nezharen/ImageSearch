@@ -1,0 +1,17 @@
+ImageSearch
+Author:Liu Tongtong, Fu Chinseng, Zhang Kai.
+
+This program is a UI for image search based on color features, using Qt4 as tool.
+
+The files in the directory ./src are the source codes of this program, and the files in the directory ./bin/list are some list files used by the program to do searches. We have also provided a compiled program in the ./bin directory named ImageSearch, built in Ubuntu 14.04 LTS 64 bit. You can compile our program using the source codes if you like. To compile our program, please use the following commands in the terminal of your OS:
+
+#cd ./src
+#qmake -project
+#mv src.pro ImageSearch.pro
+#qmake ImageSearch.pro
+#make
+
+You must ensure that you have qt4 libiraies installed on your OS, otherwise you may fail in building the program.
+
+If you want to run this program, please put the "ImageSearch" executable file, the "list" directory and the "image" directory under the same folder. As the "image" directory is quite large, we did not included it in our zip file. Please just use the "image" dirctory in the ".../DS&Alg-Project1-Release/data" folder, which was uploaded to the web learning school. After getting all files ready, you can just start running the "ImageSearch" program and enjoy your image searching.
+
